@@ -1,0 +1,11 @@
+<p>
+  testes-pipe works!
+</p>
+<h3>Exemplos de PIPES</h3>
+<p> <b>Título:</b> {{ livro.titulo | uppercase | lowercase | camelCase}}</p>
+<p><b>Estrelas:</b> {{ livro.rating | number: '1.1-1'}}<p>
+<p><b>Páginas:</b> {{livro.numeroDePaginas | number}}</p>
+<p><b>Data Lançamento:</b> {{livro.dataLancamento | date}}</p>
+<p><b>Preço:</b> {{ livro.preco | currency:'BRL':true}}<p>
+<p><b>Url: </b><a href="{{livro.url}}">LINK</a></p>
+
