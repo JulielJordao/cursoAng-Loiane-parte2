@@ -16,6 +16,12 @@ export class TestesPipeComponent implements OnInit {
     url: 'http://a.co/glqjpRP'
   }
 
+  livros: Array<String> = ['Angular 2', 'Java'];
+
+  addCurso: Function = function(livro){
+    this.livros.push(livro);
+  }
+
   constructor() { }
 
   ngOnInit() {

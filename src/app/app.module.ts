@@ -6,13 +6,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { TestesPipeComponent } from './testes-pipe/testes-pipe.component'; 
 import { CamelCasePipe } from './camel-case.pipe';
-
+import { FiltroArrayPipe } from './filtro-array.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     TestesPipeComponent,
-    CamelCasePipe
+    CamelCasePipe,
+    FiltroArrayPipe
   ],
   imports: [
     BrowserModule,
