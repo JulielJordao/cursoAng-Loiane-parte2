@@ -7,13 +7,16 @@ import { AppComponent } from './app.component';
 import { TestesPipeComponent } from './testes-pipe/testes-pipe.component'; 
 import { CamelCasePipe } from './camel-case.pipe';
 import { FiltroArrayPipe } from './filtro-array.pipe';
+import { FiltroArrayImpuroPipe } from './filtro-array-impuro.pipe';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     TestesPipeComponent,
     CamelCasePipe,
-    FiltroArrayPipe
+    FiltroArrayPipe,
+    FiltroArrayImpuroPipe
   ],
   imports: [
     BrowserModule,
